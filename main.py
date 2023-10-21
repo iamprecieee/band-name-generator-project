@@ -10,4 +10,4 @@ if pet == "yes":
 elif pet == "no":
   pet_name = input("What pet would you love to own?\n")
 #combine the names of city and pet and display their band name
-print("Okay " + name +", your band name is " + city_name + " " + pet_name + ".")
+print(f"Okay {name}, your band name is {city_name} {pet_name}.")
